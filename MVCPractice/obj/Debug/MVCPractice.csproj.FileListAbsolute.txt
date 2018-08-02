@@ -1,0 +1,4 @@
+C:\Users\NIKI\Desktop\MVCPractice\MVCPractice\bin\MVCPractice.dll
+C:\Users\NIKI\Desktop\MVCPractice\MVCPractice\bin\MVCPractice.pdb
+C:\Users\NIKI\Desktop\MVCPractice\MVCPractice\obj\Debug\MVCPractice.dll
+C:\Users\NIKI\Desktop\MVCPractice\MVCPractice\obj\Debug\MVCPractice.pdb
