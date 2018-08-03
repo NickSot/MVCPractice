@@ -37,9 +37,9 @@ namespace MVCPractice.Controllers
 
             if (fmodel.folderName != null){
 
-                Thread t1 = new Thread(() => { Directory.CreateDirectory(Session["fPath"].ToString() + fmodel.folderName + @"\"); });
+                Thread t1 = new Thread(() => { Directory.CreateDirectory(Session["fPath"].ToString() + @"\" + fmodel.folderName); });
 
-                t1.Start();
+                t1.Start(); 
             }
 
             //var path = Server.MapPath("~/wwroot/");
@@ -57,6 +57,7 @@ namespace MVCPractice.Controllers
         }
 
         public ActionResult EnterDir(Models.FolderModel fObject) {
+
             Session["fPath"] = folderModel.folderPath = fObject.folderPath;
 
             return RedirectToAction("Index", folderModel);

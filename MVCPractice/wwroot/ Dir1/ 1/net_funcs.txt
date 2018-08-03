@@ -1,0 +1,29 @@
+socket(socket_family, socket_type)
+#The constructer creates a new socket
+
+bind((host_name, port))
+#Takes address and port
+
+listen()
+#Starts listening for TCP connections
+
+accept()
+Accepts a connection when found
+
+---------------------------------
+
+connect((host_name, port))
+#Takes address and port
+
+recv(buffer)
+#Tries to grab data from TCP connection
+
+send(bytes)
+#attempts to send the bytes given
+
+close()
+#Closes a socket/connection and frees the port
+
+----------------------------------------------
+
+TCP - Transmition Control Protocol^^^

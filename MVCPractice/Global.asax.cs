@@ -22,12 +22,6 @@ namespace MVCPractice
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
-            routes.MapRoute(
-              "Root",
-              "",
-              new { controller = "Home", action = "Index", id = "" }
-            );
-
         }
 
         protected void Application_Start()
